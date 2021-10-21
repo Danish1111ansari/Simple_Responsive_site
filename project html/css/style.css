@@ -1,0 +1,426 @@
+/*font importing */
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Courgette&family=Livvic:wght@900&family=Lobster&family=Montserrat+Alternates:wght@100&family=Patua+One&family=Racing+Sans+One&family=Rubik:ital,wght@1,300&family=Sniglet&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Brygada+1918:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Courgette&family=Livvic:wght@900&family=Montserrat+Alternates:wght@100&family=Racing+Sans+One&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+header,
+section {
+  overflow-wrap: normal;
+}
+
+:root {
+  --Single-font: "Singlet", cursive;
+  --Rubik: "Rubik", cursive;
+  --Patua: "Patua-one", cursive;
+  --Lobster: "Lobster", cursive;
+  --light-black: #2e2c2caf;
+  --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+  --light-gray: rgba(255, 255, 255, 0);
+}
+
+header a{
+    font-family:var(--Single-font);
+    font-size:0.9em;
+    color:whitesmoke;
+}
+
+
+.nav-1 a{
+    font-family:var(--Single-font);
+    font-size:0.9em;
+    color:whitesmoke;
+}
+
+
+
+
+header{
+    background: #dd2476;
+    background: var(--bggradient);
+    
+}
+
+.dropdown-content{
+    display: none;
+  border-radius: 5px;
+    position:absolute;
+    background: rgb(27, 26, 26);
+    box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    outline: 1px solid white;
+}
+.dropdown-content a{
+color: rgb(236, 228, 228);
+margin: 12px ;
+text-decoration: none;
+
+width:max-content;
+display: block;
+
+}
+.dropdown-content a:hover{
+    background: rgb(58, 47, 206);
+    padding: 12px 12px;
+    border-radius: 5px;
+
+}
+
+.dropdown:hover.dd-c{
+    display: block;
+}
+
+header.nav-item:last-child{
+    padding-right: 10.5em;
+}
+
+header .nav-item{
+    padding: 0.9em;
+}
+header .nav-link:hover{
+    color: black;
+}
+
+header .row .col-md-5{
+    padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-7{
+padding: 22vmin 1vmin;
+padding-bottom: 35vmin;
+font-family:var(--Rubik);
+color: white;
+
+}
+
+header .container .col-md-7 h6{
+padding: 1vmin 1vmin;
+letter-spacing: 3   px;
+}
+
+header .container .col-md-7 h1{
+    font-size: 8vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+}
+header .container .col-md-5 img{
+    width: 100%;
+}
+
+header .container .col-md-7 p{
+    padding: 1vmin 5vmin;
+}
+
+header .container .col-md-7 button{
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+
+/*section*/
+
+.section-1{
+    padding: 20vmin o;
+
+}
+.section-1 .row .col-md-6 .pray img{
+    opacity: 0.8;
+    width: 110%;
+    
+    margin-top:30px ;
+   
+}
+
+.section-1 .row .col-md-6:last-child{
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+}
+.section-1 .row .col-md-6 .panel{
+    position: absolute;
+    top: 7vmin;
+    left: -18vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+padding:20px 22px 12px 12px ;
+box-shadow: 0px 25px 42px rgb(0,0,0, 0.1);
+font-family: var(--Rubik);
+z-index: 1;
+}
+
+.section-1 .row .col-md-6 .panel h1{
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2em;
+}
+
+.section-1 .row .col-md-6 .panel p{
+font-size: 0.9em;
+color: rgba(0, 0, 0, 0.5);
+}
+
+
+/*section-2*/
+
+.cover {
+    width: 100%;
+    height: 50vmin;
+  background: url(../assests/wallpaperflare.com_wallpaper.jpg);
+   
+    background-size: 110%;
+    position: relative;
+
+}
+
+.cover .content h1{
+    font-family: var(--Patua);
+    font-size: 6vmin;
+    color: whitesmoke;
+    margin-top: 80px;
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2em;
+   
+}
+
+.cover .content p{
+    font-family: var(--Rubik);
+    font-weight: bold;
+    font-size: 2vmin;
+    color: #e5e5e5;
+}
+
+.numbers .rect{
+    position: relative;
+    z-index: 1;
+    background: #ffff;
+    width: 17rem;
+    height: 12rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: 5px;
+    box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.3);
+
+}
+
+.numbers{
+    margin-top: -12vmin;
+}
+
+.numbers .rect h1{
+    
+    font-size: 5rem;
+    color: tomato;
+}
+
+.numbers .rect p{
+    font-family: var(--Patua);
+    font-size: 1rem;
+    padding-bottom: -5px;
+}
+
+
+.purchase>h1{
+    padding-top: 15vmin;
+    padding-bottom: 0.1em;
+    font-family: var(--Lobster);
+}
+
+.purchase>p{
+    color: var(--light-black);
+    font-size: 3vmin;
+    padding-bottom: 10vmin;
+}
+
+.purchase .cards .card{
+    width: 22rem;
+    margin: 3vmin;
+    outline: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.1);
+}
+
+.cards div{
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+}
+.cards .card-title{
+    background: rgba(208, 241, 241, 0.1);
+    padding: 1.4rem 2.5rem;
+    font-size: 3vmin;
+    font-weight: bold;
+
+}
+
+.card .card-text{
+    padding: 2.5rem 3rem;
+    color: var(--light-black);
+
+}
+
+.card-body .pricing{
+    background: rgba(208, 241, 241, 0.1);
+    border-top-right-radius: 170px;
+    border-top-left-radius: 170px;
+}
+
+.card-body .pricing>h1{
+    font-size: 8vmin;
+    padding: 1em 0.5em;
+}
+
+.card-body .pricing>a{
+    position: relative;
+    bottom: 32px;
+}
+
+
+/*section_3*/
+
+.section-3{
+    height: 70vmin;
+    margin-top: 15vmin;
+    background:var(--bggradient)
+
+}
+.section-3 .col-md-12>h1{
+    padding: 1.5em 0 0.5em 0;
+    color: whitesmoke;
+    font-size: 6vmin;
+}
+
+.section-3 .col-md-12>p{
+    padding: 0.4em;
+    padding-bottom: 1.5em;
+    color:whitesmoke;
+    font-size: 2vmin;
+}
+
+.section-3 .desktop{
+/* background: white; */
+display: inline-block;
+border-radius: 3em;
+/* padding: 10px 10px 10px 5px ;
+margin-bottom:-12px ; */
+}
+
+.section-3 .desktop .text{
+    position: relative;
+    left: 12px;
+    bottom: 14px;
+    padding: 4px;
+    margin-top: 2px;
+    margin-right: 12px;
+   
+}
+
+.icon_1{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.section-3 .desktop h3{
+    font-size: 4vmin;
+}
+
+.section-3 .desktop p{
+    font-size: 2vmin;
+    margin-top: -10px;
+}
+
+.hello {
+    color: #22201f;
+}
+
+.desktop{
+    background:white ;
+    margin-right: 50px;
+    padding-bottom: -112px;
+}
+
+
+/*section_4*/
+
+.section-4 .container h1{
+    font-size: 6vmin;
+    padding-top: 12vmin;
+
+}
+
+
+.section-4 .container p{
+    font-size: 2vmin;
+  color: #2e2d2c;
+
+}
+
+.section-4 .team{
+
+    padding: 8vmin 4vmin;
+}
+
+.section-4 .card{
+margin-top: 10vmin;
+width: 300px;
+height: 350px;
+}
+
+.section-4 .card .card-text{
+    padding: 0.5em;
+}
+
+
+.section-4 .card .card-body>a{
+    font-size: 1.5em;
+} 
+
+
+.border-radius{
+    border-radius: 340px ;
+
+    width: 60%;
+}
+.carousel_slide{
+   
+    width: 300px;
+    height: 350px;
+ margin-left: 65px;
+}
+
+/*footer */
+footer{
+    background: rgba(0, 0, 0, 0.8);
+    overflow-x: hidden;
+    padding: 10vmin 14vmin;
+    margin-top: 12px;
+}
+
+footer p>span{
+    color: #ff512f;
+}
+
+footer input{
+
+    border: none !important;
+
+}
+
+/* footer input::placeholder{
+    color: white !important;
+} */
+
+footer .input-group .input-group-trext{
+    background: var(--bggradient);
+    border: none;
+}
+
+
+footer .column i{
+    color: #dd2476;
+}
+
+footer .columni+i{
+    padding: 0 0.5em;
+}
